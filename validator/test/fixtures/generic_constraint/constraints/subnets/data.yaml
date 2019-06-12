@@ -33,6 +33,7 @@ spec:
         - and:
           - key: resource.data.ipCidrRange
             type: value
+            op: eq
             value: 10.10.0.0/16
           - key: resource.data.name
             type: regex
@@ -43,6 +44,7 @@ spec:
         - and:
           - key: resource.data.ipCidrRange
             type: value
+            op: eq
             value: 10.1.0.0/16
           - key: resource.data.name
             type: regex
