@@ -1,0 +1,179 @@
+[
+    {
+        "asset_type": "compute.googleapis.com/Subnetwork",
+        "name": "//compute.googleapis.com/projects/sbx-5064-validator-te-36b9457b/regions/us-east1/subnetworks/subnet-2",
+        "resource": {
+            "data": {
+                "creationTimestamp": "2019-05-16T08:36:47.044-07:00",
+                "enableFlowLogs": true,
+                "fingerprint": "Ww3ARuh6p7U=",
+                "gatewayAddress": "192.168.24.1",
+                "id": "2298924734",
+                "ipCidrRange": "192.168.24.0/24",
+                "name": "subnet-2",
+                "network": "https://www.googleapis.com/compute/v1/projects/sbx-5064-validator-te-36b9457b/global/networks/my-vpc-network",
+                "privateIpGoogleAccess": false,
+                "region": "https://www.googleapis.com/compute/v1/projects/sbx-5064-validator-te-36b9457b/regions/us-east1",
+                "selfLink": "https://www.googleapis.com/compute/v1/projects/sbx-5064-validator-te-36b9457b/regions/us-east1/subnetworks/subnet-2"
+            },
+            "discovery_document_uri": "https://www.googleapis.com/discovery/v1/apis/compute/v1/rest",
+            "discovery_name": "Subnetwork",
+            "parent": "//cloudresourcemanager.googleapis.com/projects/918066413549",
+            "version": "v1"
+        }
+    },
+    {
+        "asset_type": "compute.googleapis.com/Subnetwork",
+        "name": "//compute.googleapis.com/projects/sbx-5064-validator-te-36b9457b/regions/us-east1/subnetworks/us-central1-private",
+        "resource": {
+            "data": {
+                "creationTimestamp": "2019-05-16T08:36:47.044-07:00",
+                "enableFlowLogs": true,
+                "fingerprint": "Ww3ARuh6p7U=",
+                "gatewayAddress": "192.168.24.1",
+                "id": "2298924735",
+                "ipCidrRange": "10.10.0.0/16",
+                "name": "us-central1-private",
+                "network": "https://www.googleapis.com/compute/v1/projects/sbx-5064-validator-te-36b9457b/global/networks/my-vpc-network",
+                "privateIpGoogleAccess": false,
+                "region": "https://www.googleapis.com/compute/v1/projects/sbx-5064-validator-te-36b9457b/regions/us-east1",
+                "selfLink": "https://www.googleapis.com/compute/v1/projects/sbx-5064-validator-te-36b9457b/regions/us-east1/subnetworks/subnet-2"
+            },
+            "discovery_document_uri": "https://www.googleapis.com/discovery/v1/apis/compute/v1/rest",
+            "discovery_name": "Subnetwork",
+            "parent": "//cloudresourcemanager.googleapis.com/projects/918066413549",
+            "version": "v1"
+        }
+    },
+    {
+        "name": "//cloudresourcemanager.googleapis.com/projects/1510025652",
+        "asset_type": "cloudresourcemanager.googleapis.com/Project",
+        "resource": {
+            "version": "v1beta1",
+            "discovery_document_uri": "https://cloudresourcemanager.googleapis.com/$discovery/rest?version=v1beta1",
+            "discovery_name": "Project",
+            "parent": "//cloudresourcemanager.googleapis.com/folders/1119836588",
+            "data": {
+                "createTime": "2019-05-16T22:19:51.276Z",
+                "labels": {
+                    "billing_id": "1111",
+                    "owner": "john_doe"
+                },
+                "lifecycleState": "ACTIVE",
+                "name": "valid-field-1111",
+                "parent": {
+                    "id": "1119836588",
+                    "type": "folder"
+                },
+                "projectId": "valid-field-1111-d4b9d374",
+                "projectNumber": "1510025652"
+            }
+        }
+    },
+    {
+        "name": "//cloudresourcemanager.googleapis.com/projects/1510025653",
+        "asset_type": "cloudresourcemanager.googleapis.com/Project",
+        "resource": {
+            "version": "v1beta1",
+            "discovery_document_uri": "https://cloudresourcemanager.googleapis.com/$discovery/rest?version=v1beta1",
+            "discovery_name": "Project",
+            "parent": "//cloudresourcemanager.googleapis.com/folders/1119836588",
+            "data": {
+                "createTime": "2019-05-16T22:19:51.276Z",
+                "labels": {
+                    "owner": "john_doe"
+                },
+                "lifecycleState": "ACTIVE",
+                "name": "no-field",
+                "parent": {
+                    "id": "1119836588",
+                    "type": "folder"
+                },
+                "projectId": "no-field-d4b9d374",
+                "projectNumber": "1510025653"
+            }
+        }
+    },
+    {
+        "name": "//cloudresourcemanager.googleapis.com/projects/15100256534",
+        "asset_type": "cloudresourcemanager.googleapis.com/Project",
+        "resource": {
+            "version": "v1beta1",
+            "discovery_document_uri": "https://cloudresourcemanager.googleapis.com/$discovery/rest?version=v1beta1",
+            "discovery_name": "Project",
+            "parent": "//cloudresourcemanager.googleapis.com/folders/1119836588",
+            "data": {
+                "createTime": "2019-05-16T22:19:51.276Z",
+                "labels": {
+                    "billing_id": "abcd",
+                    "owner": "john_doe"
+                },
+                "lifecycleState": "ACTIVE",
+                "name": "bad-field",
+                "parent": {
+                    "id": "1119836588",
+                    "type": "folder"
+                },
+                "projectId": "bad-field-d4b9d374",
+                "projectNumber": "1510025654"
+            }
+        }
+    },
+    {
+        "name": "//bigquery.googleapis.com/projects/sandbox2/datasets/us_west2_test_dataset",
+        "asset_type": "bigquery.googleapis.com/Dataset",
+        "resource": {
+            "version": "v2",
+            "discovery_document_uri": "https://www.googleapis.com/discovery/v1/apis/bigquery/v2/rest",
+            "discovery_name": "Dataset",
+            "parent": "//cloudresourcemanager.googleapis.com/projects/0000000000",
+            "data": {
+                "datasetReference": {
+                    "datasetId": "us_west2_test_dataset",
+                    "projectId": "sandbox2"
+                },
+                "id": "sandbox2:us_west2_test_dataset",
+                "kind": "bigquery#dataset",
+                "location": "us-west2"
+            }
+        }
+    },
+    {
+        "name": "//bigquery.googleapis.com/projects/sandbox2/datasets/eu_test_dataset",
+        "asset_type": "bigquery.googleapis.com/Dataset",
+        "resource": {
+            "version": "v2",
+            "discovery_document_uri": "https://www.googleapis.com/discovery/v1/apis/bigquery/v2/rest",
+            "discovery_name": "Dataset",
+            "parent": "//cloudresourcemanager.googleapis.com/projects/000000000",
+            "data": {
+                "datasetReference": {
+                    "datasetId": "eu_test_dataset",
+                    "projectId": "sandbox2"
+                },
+                "id": "sandbox2:eu_test_dataset",
+                "kind": "bigquery#dataset",
+                "location": "EU"
+            }
+        }
+    },
+    {
+        "name": "//bigquery.googleapis.com/projects/sandbox2/datasets/us_east4_test_dataset",
+        "asset_type": "bigquery.googleapis.com/Dataset",
+        "resource": {
+            "version": "v2",
+            "discovery_document_uri": "https://www.googleapis.com/discovery/v1/apis/bigquery/v2/rest",
+            "discovery_name": "Dataset",
+            "parent": "//cloudresourcemanager.googleapis.com/projects/0000000000",
+            "data": {
+                "datasetReference": {
+                    "datasetId": "us_east4_test_dataset",
+                    "projectId": "sandbox2"
+                },
+                "id": "sandbox2:us_east4_test_dataset",
+                "kind": "bigquery#dataset",
+                "location": "us-east4"
+            }
+        }
+    }
+]
